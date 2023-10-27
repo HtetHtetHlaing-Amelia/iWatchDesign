@@ -1,0 +1,297 @@
+img {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.image {
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 400px;
+  height: 450px;
+  border: 1px solid white;
+  box-shadow: 2px 2px 2px gray;
+}
+
+#container{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background: url('./images/straps/strap4.png') no-repeat;
+  background-size: 270px;
+}
+
+#container::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 100%;
+  height: 100%;
+  background: url('./images/cases/case5.png') no-repeat;
+  background-size: 260px;
+}
+
+
+/* Caption*/
+.caption {
+  text-align: center;
+  font-size: 25px;
+  text-align: justify;
+}
+
+/* text 'Series 8'*/
+.text {
+  width: 280px;
+  height: 10px;
+  text-align: center;
+  color: red;
+}
+
+p>button {
+  margin-left: 80%;
+  width: 60px;
+  height: 30px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+  background-color: blue;
+}
+/*Not display checkbox*/
+input[type="radio"] {
+  display: none;
+}
+
+
+
+.strap {
+  font-size: 20px;
+  position: absolute;
+  top: 43%;
+  margin-left: 40%;
+  padding-bottom: 5px;
+  border-bottom: 1.5px solid black;
+  width: 300px;
+}
+
+.case {
+  font-size: 20px;
+  position: absolute;
+  top: 23%;
+  margin-left: 40%;
+  padding-bottom: 5px;
+  border-bottom: 1.5px solid black;
+  width: 300px;
+}
+
+/*For case design*/
+label[class="box1"] {
+  position: absolute;
+  top: 30%;
+  margin-left: 40%;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: url('./images/cases/case1.png') no-repeat;
+  background-size: cover;
+}
+
+label[class="box2"] {
+  position: absolute;
+  top: 30%;
+  margin-left: 45%;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: url('./images/cases/case2.png') no-repeat;
+  background-size: cover;
+}
+
+label[class="box3"] {
+  position: absolute;
+  top: 30%;
+  margin-left: 50%;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: url('./images/cases/case3.png') no-repeat;
+  background-size: cover;
+}
+
+label[class="box4"] {
+  position: absolute;
+  top: 30%;
+  margin-left: 55%;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: url('./images/cases/case4.png') no-repeat;
+  background-size: cover;
+}
+
+label[class="box5"] {
+  position: absolute;
+  top: 30%;
+  margin-left: 60%;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: url('./images/cases/case5.png') no-repeat;
+  background-size: cover;
+}
+
+
+/* For strape design */
+label[class="box6"] {
+  position: absolute;
+  top: 52%;
+  margin-left: 40%;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: url('./images/straps/strap1.png') no-repeat;
+  background-size: cover;
+}
+
+label[class="box7"] {
+  position: absolute;
+  top: 52%;
+  margin-left: 45%;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: url('./images/straps/strap2.png') no-repeat;
+  background-size: cover;
+}
+
+label[class="box8"] {
+  position: absolute;
+  top: 52%;
+  margin-left: 50%;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: url('./images/straps/strap3.png') no-repeat;
+  background-size: cover;
+}
+
+label[class="box9"] {
+  position: absolute;
+  top: 52%;
+  margin-left: 55%;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: url('./images/straps/strap4.png') no-repeat;
+  background-size: cover;
+}
+
+label[class="box10"] {
+  position: absolute;
+  top: 52%;
+  margin-left: 60%;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: url('./images/straps/strap5.png') no-repeat;
+  background-size: cover;
+}
+
+/* For Case*/
+#myCheckbox1:checked ~ div::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 80%;
+  height: 100%;
+  background: url('./images/cases/case1.png') no-repeat;
+  background-size: 260px;
+  
+}
+
+#myCheckbox2:checked ~ div::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 100%;
+  height: 100%;
+  background: url('./images/cases/case2.png') no-repeat;
+  background-size: 260px;
+}
+
+#myCheckbox3:checked ~ div::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 100%;
+  height: 100%;
+  background: url('./images/cases/case3.png') no-repeat;
+  background-size: 260px;
+}
+
+#myCheckbox4:checked ~ div::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 100%;
+  height: 100%;
+  background: url('./images/cases/case4.png') no-repeat;
+  background-size: 260px;
+}
+
+#myCheckbox5:checked ~ div::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  width: 100%;
+  height: 100%;
+  background: url('./images/cases/case5.png') no-repeat;
+  background-size: 260px;
+}
+
+/*/for strap*/
+#myCheckbox6:checked ~ div {
+ width: 300px;
+  height: 300px;
+  position: relative;
+  background: url('./images/straps/strap1.png') no-repeat;
+  background-size: 270px;
+  
+}
+
+#myCheckbox7:checked ~ div {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background: url('./images/straps/strap2.png') no-repeat;
+  background-size: 270px;
+}
+
+#myCheckbox8:checked ~ div {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background: url('./images/straps/strap3.png') no-repeat;
+  background-size: 270px;
+}
+
+#myCheckbox9:checked ~ div {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background: url('./images/straps/strap4.png') no-repeat;
+  background-size: 270px;
+}
+
+#myCheckbox10:checked ~ div {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background: url('./images/straps/strap5.png') no-repeat;
+  background-size: 270px;
+}
